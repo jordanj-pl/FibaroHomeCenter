@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17676B831BBDB1E80084D20D /* FHCDevicesStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 17676B821BBDB1E80084D20D /* FHCDevicesStore.m */; };
+		17676B861BBE46CC0084D20D /* FHCNewConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17676B851BBE46CC0084D20D /* FHCNewConnectionViewController.m */; };
+		17676B891BC3FD5A0084D20D /* FHCHomeCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17676B881BC3FD5A0084D20D /* FHCHomeCenterViewController.m */; };
+		17676B8C1BC586EF0084D20D /* FHCHomeSectionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17676B8B1BC586EF0084D20D /* FHCHomeSectionsTableViewController.m */; };
+		17676B8F1BC7248B0084D20D /* FHCReplaceSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 17676B8E1BC7248B0084D20D /* FHCReplaceSegue.m */; };
+		17676B921BC7327D0084D20D /* FHCRoomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17676B911BC7327D0084D20D /* FHCRoomTableViewController.m */; };
+		1767DBA11BBC06AA007E18F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DBA01BBC06AA007E18F9 /* main.m */; };
+		1767DBA41BBC06AA007E18F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DBA31BBC06AA007E18F9 /* AppDelegate.m */; };
+		1767DBA71BBC06AA007E18F9 /* FHCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DBA61BBC06AA007E18F9 /* FHCViewController.m */; };
+		1767DBAA1BBC06AA007E18F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1767DBA81BBC06AA007E18F9 /* Main.storyboard */; };
+		1767DBAC1BBC06AA007E18F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1767DBAB1BBC06AA007E18F9 /* Images.xcassets */; };
+		1767DBAF1BBC06AA007E18F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1767DBAD1BBC06AA007E18F9 /* LaunchScreen.xib */; };
+		1767DBBB1BBC06AB007E18F9 /* FibaroHomeCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DBBA1BBC06AB007E18F9 /* FibaroHomeCenterTests.m */; };
+		1767DBC81BBC0A2F007E18F9 /* FHCApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DBC71BBC0A2F007E18F9 /* FHCApi.m */; };
+		1767DBCB1BBC0CAD007E18F9 /* FHCHomeCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DBCA1BBC0CAD007E18F9 /* FHCHomeCenter.m */; };
+		1767DBD11BBC0EBE007E18F9 /* FHCSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DBD01BBC0EBE007E18F9 /* FHCSection.m */; };
+		1767DBD41BBC12FA007E18F9 /* FHCRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DBD31BBC12FA007E18F9 /* FHCRoom.m */; };
+		1767DBD71BBC1B50007E18F9 /* FHCDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DBD61BBC1B50007E18F9 /* FHCDevice.m */; };
+		1767DBDA1BBC1F4A007E18F9 /* FHCSystemStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DBD91BBC1F4A007E18F9 /* FHCSystemStatus.m */; };
+		1767DBDD1BBC212D007E18F9 /* FHCConnectionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DBDC1BBC212D007E18F9 /* FHCConnectionData.m */; };
+		17B003C91BD0000900119DF9 /* FHCDeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B003C81BD0000900119DF9 /* FHCDeviceTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		17B003CD1BD05B3100119DF9 /* FHCBinarySwitchDeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B003CC1BD05B3100119DF9 /* FHCBinarySwitchDeviceTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		17B003D01BD05B6C00119DF9 /* FHCDimmableLightBinarySwitchDeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B003CF1BD05B6C00119DF9 /* FHCDimmableLightBinarySwitchDeviceTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		17B003D41BD1269800119DF9 /* FHCApiStatusMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B003D31BD1269800119DF9 /* FHCApiStatusMonitor.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1767DBB51BBC06AB007E18F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1767DB931BBC06AA007E18F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1767DB9A1BBC06AA007E18F9;
+			remoteInfo = FibaroHomeCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17676B811BBDB1E80084D20D /* FHCDevicesStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCDevicesStore.h; sourceTree = "<group>"; };
+		17676B821BBDB1E80084D20D /* FHCDevicesStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCDevicesStore.m; sourceTree = "<group>"; };
+		17676B841BBE46CC0084D20D /* FHCNewConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCNewConnectionViewController.h; sourceTree = "<group>"; };
+		17676B851BBE46CC0084D20D /* FHCNewConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCNewConnectionViewController.m; sourceTree = "<group>"; };
+		17676B871BC3FD5A0084D20D /* FHCHomeCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCHomeCenterViewController.h; sourceTree = "<group>"; };
+		17676B881BC3FD5A0084D20D /* FHCHomeCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCHomeCenterViewController.m; sourceTree = "<group>"; };
+		17676B8A1BC586EF0084D20D /* FHCHomeSectionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCHomeSectionsTableViewController.h; sourceTree = "<group>"; };
+		17676B8B1BC586EF0084D20D /* FHCHomeSectionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCHomeSectionsTableViewController.m; sourceTree = "<group>"; };
+		17676B8D1BC7248B0084D20D /* FHCReplaceSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCReplaceSegue.h; sourceTree = "<group>"; };
+		17676B8E1BC7248B0084D20D /* FHCReplaceSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCReplaceSegue.m; sourceTree = "<group>"; };
+		17676B901BC7327D0084D20D /* FHCRoomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCRoomTableViewController.h; sourceTree = "<group>"; };
+		17676B911BC7327D0084D20D /* FHCRoomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCRoomTableViewController.m; sourceTree = "<group>"; };
+		1767DB9B1BBC06AA007E18F9 /* FibaroHomeCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FibaroHomeCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1767DB9F1BBC06AA007E18F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1767DBA01BBC06AA007E18F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1767DBA21BBC06AA007E18F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1767DBA31BBC06AA007E18F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1767DBA51BBC06AA007E18F9 /* FHCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHCViewController.h; sourceTree = "<group>"; };
+		1767DBA61BBC06AA007E18F9 /* FHCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHCViewController.m; sourceTree = "<group>"; };
+		1767DBA91BBC06AA007E18F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1767DBAB1BBC06AA007E18F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1767DBAE1BBC06AA007E18F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1767DBB41BBC06AB007E18F9 /* FibaroHomeCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibaroHomeCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1767DBB91BBC06AB007E18F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1767DBBA1BBC06AB007E18F9 /* FibaroHomeCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FibaroHomeCenterTests.m; sourceTree = "<group>"; };
+		1767DBC61BBC0A2F007E18F9 /* FHCApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCApi.h; sourceTree = "<group>"; };
+		1767DBC71BBC0A2F007E18F9 /* FHCApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCApi.m; sourceTree = "<group>"; };
+		1767DBC91BBC0CAD007E18F9 /* FHCHomeCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCHomeCenter.h; sourceTree = "<group>"; };
+		1767DBCA1BBC0CAD007E18F9 /* FHCHomeCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCHomeCenter.m; sourceTree = "<group>"; };
+		1767DBCF1BBC0EBE007E18F9 /* FHCSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCSection.h; sourceTree = "<group>"; };
+		1767DBD01BBC0EBE007E18F9 /* FHCSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCSection.m; sourceTree = "<group>"; };
+		1767DBD21BBC12FA007E18F9 /* FHCRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCRoom.h; sourceTree = "<group>"; };
+		1767DBD31BBC12FA007E18F9 /* FHCRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCRoom.m; sourceTree = "<group>"; };
+		1767DBD51BBC1B50007E18F9 /* FHCDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCDevice.h; sourceTree = "<group>"; };
+		1767DBD61BBC1B50007E18F9 /* FHCDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCDevice.m; sourceTree = "<group>"; };
+		1767DBD81BBC1F4A007E18F9 /* FHCSystemStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCSystemStatus.h; sourceTree = "<group>"; };
+		1767DBD91BBC1F4A007E18F9 /* FHCSystemStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCSystemStatus.m; sourceTree = "<group>"; };
+		1767DBDB1BBC212D007E18F9 /* FHCConnectionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCConnectionData.h; sourceTree = "<group>"; };
+		1767DBDC1BBC212D007E18F9 /* FHCConnectionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCConnectionData.m; sourceTree = "<group>"; };
+		17B003C71BD0000900119DF9 /* FHCDeviceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCDeviceTableViewCell.h; sourceTree = "<group>"; };
+		17B003C81BD0000900119DF9 /* FHCDeviceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCDeviceTableViewCell.m; sourceTree = "<group>"; };
+		17B003CB1BD05B3100119DF9 /* FHCBinarySwitchDeviceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCBinarySwitchDeviceTableViewCell.h; sourceTree = "<group>"; };
+		17B003CC1BD05B3100119DF9 /* FHCBinarySwitchDeviceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCBinarySwitchDeviceTableViewCell.m; sourceTree = "<group>"; };
+		17B003CE1BD05B6C00119DF9 /* FHCDimmableLightBinarySwitchDeviceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCDimmableLightBinarySwitchDeviceTableViewCell.h; sourceTree = "<group>"; };
+		17B003CF1BD05B6C00119DF9 /* FHCDimmableLightBinarySwitchDeviceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCDimmableLightBinarySwitchDeviceTableViewCell.m; sourceTree = "<group>"; };
+		17B003D21BD1269800119DF9 /* FHCApiStatusMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCApiStatusMonitor.h; sourceTree = "<group>"; };
+		17B003D31BD1269800119DF9 /* FHCApiStatusMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCApiStatusMonitor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1767DB981BBC06AA007E18F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1767DBB11BBC06AB007E18F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1767DB921BBC06AA007E18F9 = {
+			isa = PBXGroup;
+			children = (
+				1767DB9D1BBC06AA007E18F9 /* FibaroHomeCenter */,
+				1767DBB71BBC06AB007E18F9 /* FibaroHomeCenterTests */,
+				1767DB9C1BBC06AA007E18F9 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
+		1767DB9C1BBC06AA007E18F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1767DB9B1BBC06AA007E18F9 /* FibaroHomeCenter.app */,
+				1767DBB41BBC06AB007E18F9 /* FibaroHomeCenterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1767DB9D1BBC06AA007E18F9 /* FibaroHomeCenter */ = {
+			isa = PBXGroup;
+			children = (
+				17B003CA1BD05ADC00119DF9 /* Device Controller Cells */,
+				1767DBC41BBC098B007E18F9 /* Device Communication */,
+				1767DBA21BBC06AA007E18F9 /* AppDelegate.h */,
+				1767DBA31BBC06AA007E18F9 /* AppDelegate.m */,
+				1767DBA51BBC06AA007E18F9 /* FHCViewController.h */,
+				1767DBA61BBC06AA007E18F9 /* FHCViewController.m */,
+				1767DBA81BBC06AA007E18F9 /* Main.storyboard */,
+				1767DBAB1BBC06AA007E18F9 /* Images.xcassets */,
+				1767DBAD1BBC06AA007E18F9 /* LaunchScreen.xib */,
+				1767DB9E1BBC06AA007E18F9 /* Supporting Files */,
+				17676B841BBE46CC0084D20D /* FHCNewConnectionViewController.h */,
+				17676B851BBE46CC0084D20D /* FHCNewConnectionViewController.m */,
+				17676B871BC3FD5A0084D20D /* FHCHomeCenterViewController.h */,
+				17676B881BC3FD5A0084D20D /* FHCHomeCenterViewController.m */,
+				17676B8A1BC586EF0084D20D /* FHCHomeSectionsTableViewController.h */,
+				17676B8B1BC586EF0084D20D /* FHCHomeSectionsTableViewController.m */,
+				17676B8D1BC7248B0084D20D /* FHCReplaceSegue.h */,
+				17676B8E1BC7248B0084D20D /* FHCReplaceSegue.m */,
+				17676B901BC7327D0084D20D /* FHCRoomTableViewController.h */,
+				17676B911BC7327D0084D20D /* FHCRoomTableViewController.m */,
+			);
+			path = FibaroHomeCenter;
+			sourceTree = "<group>";
+		};
+		1767DB9E1BBC06AA007E18F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1767DB9F1BBC06AA007E18F9 /* Info.plist */,
+				1767DBA01BBC06AA007E18F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1767DBB71BBC06AB007E18F9 /* FibaroHomeCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				1767DBBA1BBC06AB007E18F9 /* FibaroHomeCenterTests.m */,
+				1767DBB81BBC06AB007E18F9 /* Supporting Files */,
+			);
+			path = FibaroHomeCenterTests;
+			sourceTree = "<group>";
+		};
+		1767DBB81BBC06AB007E18F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1767DBB91BBC06AB007E18F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1767DBC41BBC098B007E18F9 /* Device Communication */ = {
+			isa = PBXGroup;
+			children = (
+				1767DBC51BBC09A1007E18F9 /* Data Model */,
+				1767DBC61BBC0A2F007E18F9 /* FHCApi.h */,
+				1767DBC71BBC0A2F007E18F9 /* FHCApi.m */,
+				17676B811BBDB1E80084D20D /* FHCDevicesStore.h */,
+				17676B821BBDB1E80084D20D /* FHCDevicesStore.m */,
+				17B003D21BD1269800119DF9 /* FHCApiStatusMonitor.h */,
+				17B003D31BD1269800119DF9 /* FHCApiStatusMonitor.m */,
+			);
+			name = "Device Communication";
+			sourceTree = "<group>";
+		};
+		1767DBC51BBC09A1007E18F9 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				1767DBC91BBC0CAD007E18F9 /* FHCHomeCenter.h */,
+				1767DBCA1BBC0CAD007E18F9 /* FHCHomeCenter.m */,
+				1767DBCF1BBC0EBE007E18F9 /* FHCSection.h */,
+				1767DBD01BBC0EBE007E18F9 /* FHCSection.m */,
+				1767DBD21BBC12FA007E18F9 /* FHCRoom.h */,
+				1767DBD31BBC12FA007E18F9 /* FHCRoom.m */,
+				1767DBD51BBC1B50007E18F9 /* FHCDevice.h */,
+				1767DBD61BBC1B50007E18F9 /* FHCDevice.m */,
+				1767DBD81BBC1F4A007E18F9 /* FHCSystemStatus.h */,
+				1767DBD91BBC1F4A007E18F9 /* FHCSystemStatus.m */,
+				1767DBDB1BBC212D007E18F9 /* FHCConnectionData.h */,
+				1767DBDC1BBC212D007E18F9 /* FHCConnectionData.m */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		17B003CA1BD05ADC00119DF9 /* Device Controller Cells */ = {
+			isa = PBXGroup;
+			children = (
+				17B003C71BD0000900119DF9 /* FHCDeviceTableViewCell.h */,
+				17B003C81BD0000900119DF9 /* FHCDeviceTableViewCell.m */,
+				17B003CB1BD05B3100119DF9 /* FHCBinarySwitchDeviceTableViewCell.h */,
+				17B003CC1BD05B3100119DF9 /* FHCBinarySwitchDeviceTableViewCell.m */,
+				17B003CE1BD05B6C00119DF9 /* FHCDimmableLightBinarySwitchDeviceTableViewCell.h */,
+				17B003CF1BD05B6C00119DF9 /* FHCDimmableLightBinarySwitchDeviceTableViewCell.m */,
+			);
+			name = "Device Controller Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1767DB9A1BBC06AA007E18F9 /* FibaroHomeCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1767DBBE1BBC06AB007E18F9 /* Build configuration list for PBXNativeTarget "FibaroHomeCenter" */;
+			buildPhases = (
+				1767DB971BBC06AA007E18F9 /* Sources */,
+				1767DB981BBC06AA007E18F9 /* Frameworks */,
+				1767DB991BBC06AA007E18F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FibaroHomeCenter;
+			productName = FibaroHomeCenter;
+			productReference = 1767DB9B1BBC06AA007E18F9 /* FibaroHomeCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1767DBB31BBC06AB007E18F9 /* FibaroHomeCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1767DBC11BBC06AB007E18F9 /* Build configuration list for PBXNativeTarget "FibaroHomeCenterTests" */;
+			buildPhases = (
+				1767DBB01BBC06AB007E18F9 /* Sources */,
+				1767DBB11BBC06AB007E18F9 /* Frameworks */,
+				1767DBB21BBC06AB007E18F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1767DBB61BBC06AB007E18F9 /* PBXTargetDependency */,
+			);
+			name = FibaroHomeCenterTests;
+			productName = FibaroHomeCenterTests;
+			productReference = 1767DBB41BBC06AB007E18F9 /* FibaroHomeCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1767DB931BBC06AA007E18F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FHC;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jordan Jasinski";
+				TargetAttributes = {
+					1767DB9A1BBC06AA007E18F9 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = MRE2S3DP28;
+					};
+					1767DBB31BBC06AB007E18F9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1767DB9A1BBC06AA007E18F9;
+					};
+				};
+			};
+			buildConfigurationList = 1767DB961BBC06AA007E18F9 /* Build configuration list for PBXProject "FibaroHomeCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1767DB921BBC06AA007E18F9;
+			productRefGroup = 1767DB9C1BBC06AA007E18F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1767DB9A1BBC06AA007E18F9 /* FibaroHomeCenter */,
+				1767DBB31BBC06AB007E18F9 /* FibaroHomeCenterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1767DB991BBC06AA007E18F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1767DBAA1BBC06AA007E18F9 /* Main.storyboard in Resources */,
+				1767DBAF1BBC06AA007E18F9 /* LaunchScreen.xib in Resources */,
+				1767DBAC1BBC06AA007E18F9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1767DBB21BBC06AB007E18F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1767DB971BBC06AA007E18F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17676B8C1BC586EF0084D20D /* FHCHomeSectionsTableViewController.m in Sources */,
+				1767DBA71BBC06AA007E18F9 /* FHCViewController.m in Sources */,
+				17B003CD1BD05B3100119DF9 /* FHCBinarySwitchDeviceTableViewCell.m in Sources */,
+				1767DBD11BBC0EBE007E18F9 /* FHCSection.m in Sources */,
+				17676B891BC3FD5A0084D20D /* FHCHomeCenterViewController.m in Sources */,
+				1767DBD41BBC12FA007E18F9 /* FHCRoom.m in Sources */,
+				17676B8F1BC7248B0084D20D /* FHCReplaceSegue.m in Sources */,
+				1767DBCB1BBC0CAD007E18F9 /* FHCHomeCenter.m in Sources */,
+				1767DBDA1BBC1F4A007E18F9 /* FHCSystemStatus.m in Sources */,
+				17676B831BBDB1E80084D20D /* FHCDevicesStore.m in Sources */,
+				17676B861BBE46CC0084D20D /* FHCNewConnectionViewController.m in Sources */,
+				17B003D41BD1269800119DF9 /* FHCApiStatusMonitor.m in Sources */,
+				1767DBA41BBC06AA007E18F9 /* AppDelegate.m in Sources */,
+				17B003C91BD0000900119DF9 /* FHCDeviceTableViewCell.m in Sources */,
+				17B003D01BD05B6C00119DF9 /* FHCDimmableLightBinarySwitchDeviceTableViewCell.m in Sources */,
+				1767DBC81BBC0A2F007E18F9 /* FHCApi.m in Sources */,
+				17676B921BC7327D0084D20D /* FHCRoomTableViewController.m in Sources */,
+				1767DBA11BBC06AA007E18F9 /* main.m in Sources */,
+				1767DBD71BBC1B50007E18F9 /* FHCDevice.m in Sources */,
+				1767DBDD1BBC212D007E18F9 /* FHCConnectionData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1767DBB01BBC06AB007E18F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1767DBBB1BBC06AB007E18F9 /* FibaroHomeCenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1767DBB61BBC06AB007E18F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1767DB9A1BBC06AA007E18F9 /* FibaroHomeCenter */;
+			targetProxy = 1767DBB51BBC06AB007E18F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1767DBA81BBC06AA007E18F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1767DBA91BBC06AA007E18F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1767DBAD1BBC06AA007E18F9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1767DBAE1BBC06AA007E18F9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1767DBBC1BBC06AB007E18F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1767DBBD1BBC06AB007E18F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1767DBBF1BBC06AB007E18F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FibaroHomeCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aero.skyisthelimit.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1767DBC01BBC06AB007E18F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FibaroHomeCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aero.skyisthelimit.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		1767DBC21BBC06AB007E18F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FibaroHomeCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aero.skyisthelimit.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FibaroHomeCenter.app/FibaroHomeCenter";
+			};
+			name = Debug;
+		};
+		1767DBC31BBC06AB007E18F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FibaroHomeCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aero.skyisthelimit.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FibaroHomeCenter.app/FibaroHomeCenter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1767DB961BBC06AA007E18F9 /* Build configuration list for PBXProject "FibaroHomeCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1767DBBC1BBC06AB007E18F9 /* Debug */,
+				1767DBBD1BBC06AB007E18F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1767DBBE1BBC06AB007E18F9 /* Build configuration list for PBXNativeTarget "FibaroHomeCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1767DBBF1BBC06AB007E18F9 /* Debug */,
+				1767DBC01BBC06AB007E18F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1767DBC11BBC06AB007E18F9 /* Build configuration list for PBXNativeTarget "FibaroHomeCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1767DBC21BBC06AB007E18F9 /* Debug */,
+				1767DBC31BBC06AB007E18F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1767DB931BBC06AA007E18F9 /* Project object */;
+}
